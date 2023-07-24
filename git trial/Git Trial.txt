@@ -1,0 +1,26 @@
+ Git commands
+git version control 
+git hub - cloud / remote 
+
+git init - to initialise git folder path
+git add filename.txt _ new file added locally
+git add -A _adds new and old file to stagging area
+git commit - m [alias/ description]
+git add remote origin [link]
+git rm -r _ remove the file
+git branch -a _shows list of branches [local & remote]
+git branch -d _ deletes the branch
+git push origin -d _ deletes the remote branch
+git checkout -b branch name _ creates new branch & switches to it
+git merge branch name _ Merge a branch into the active branch
+git stash _ stash changes to dirty working directory
+git stash clear _ Removes all stashed entries
+git push origin [branch name] _	Push a branch to your remote repository
+git push -u origin [branch name] _	Push changes to remote repository (and remember the branch)
+git push _	Push changes to remote repository (remembered branch)
+git push origin --delete [branch name]	_ Delete a remote branch
+git pull _	Update local repository to the newest commit
+git pull origin [branch name] _	Pull changes from remote repository
+git log	 _View changes
+git log --summary _ View changes (detailed)
+git log --oneline _ View changes (briefly)
